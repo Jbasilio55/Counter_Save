@@ -47,3 +47,10 @@ button {
 #save-btn {
   background: darkgreen;
 }
+
+@media only screen and (max-width: 1000px) {
+  #pr-btn {
+    display: flex;
+    flex-direction: column;
+  }
+}
