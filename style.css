@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(https://aprika.com/wp-content/uploads/2023/01/task-list-template.jpeg);
+}
+
+#counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  opacity: 0.8;
+  max-width: 800px;
+  max-height: 800px;
+  margin: 100px auto 0;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: blue;
+}
+
+#save-btn {
+  background: darkgreen;
+}
